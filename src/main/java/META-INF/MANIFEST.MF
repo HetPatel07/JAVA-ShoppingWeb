@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: authentication-1.0-SNAPSHOT.jar mariadb-java-client-2.7.1.ja
+ r javax.mail-1.6.2.jar activation-1.1.jar
+

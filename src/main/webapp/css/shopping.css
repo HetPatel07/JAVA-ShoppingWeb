@@ -1,0 +1,179 @@
+body, p, legend, label, input,html {
+    font: normal verdana, helvetica, sans-serif;
+    text-align: left;
+    height:100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.header{
+    font-size: 20px;
+}
+p.main {
+    font-size: 12pt;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+fieldset {
+    padding: 20px;
+    border: 1px solid #aaaaaa;
+    border-radius: 8px;
+}
+
+legend {
+    font-size: 12pt;
+    color: #4488dd;
+}
+
+form input {
+    width: 100%;
+    font-size: 12pt;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type=submit] {
+    width: 100%;
+    background-color: #33bb66;
+    color: white;
+    text-align: center;
+    font-size: 12pt;
+    padding: 16px 20px;
+    margin: 24px 0px 0px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input:focus:invalid {
+  background: url("icons/exclamation.svg") no-repeat 95% 50% #ffdddd;
+  background-size: 20px;
+}
+
+header {
+        display: flex;
+                justify-content: space-between;
+                background: #33bb66;
+                padding: 10px 40px;
+                color: white;
+                letter-spacing: 1px;
+                font-size: 20px;
+            }
+            header ul{
+                text-decoration: none;                
+                list-style: none;
+                display: flex;
+                align-items: center;
+            }
+            
+            header ul li{
+                margin: 0 20px;
+            }
+            header ul li a{
+                text-decoration: none;
+                color: white;
+            }
+            .userName {
+                text-align: right;
+            }
+            .userName span{
+                margin-top: 5px;
+                display: block;
+                font-weight: 900;  
+            }
+            .cart{
+                position: relative;
+                font-size: 30px;
+                text-decoration: none;
+                color: white;
+            }
+            .cart .cartItemNumber{
+                position: absolute;
+                top: -30%;
+                right: -35%;
+                background: black;
+                color: white;
+                font-size: 14px;                
+                padding: 5px 8px;
+                border-radius: 50%;
+                text-align: center;
+            }
+            
+            .products {
+                font-size: 22px !important;
+                color: black;
+                display: flex;
+            }
+            
+.products img{
+    height: 100px;
+    width: 100px;
+    
+}
+
+.product{
+    width: 250px;    
+    display:flex;
+    flex-direction: column;  
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid grey;
+    margin:10px;
+}
+
+.product p{
+    text-align: center;
+}
+.product input{
+    height: 30px;
+}
+table.cartItems{
+    width: 100%;
+  border:1px solid black;
+  border-spacing: 0;
+  
+}
+table.cartItems td{
+    text-align: center;
+}
+table.cartItems td input{
+    width: 200px;
+    padding: 10px;
+}
+table.cartItems  thead{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+table.cartItems img{
+    width: 150px;
+    color: black;
+}
+.placeOrder{
+    padding: 10px;
+    position: relative;
+    top: 20px;    
+    margin-top: 10px;
+    color:white;
+    text-decoration: none;
+    background: #33bb66;
+}
+.order{
+    padding: 10px;
+    font-size: 24px;
+    border-bottom:  1px solid black;             
+}
+.orderProduct{
+    padding: 10px 0;
+}

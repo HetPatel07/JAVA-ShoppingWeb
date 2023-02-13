@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="ShoppingWeb:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ShoppingWeb_jar</output-path>
+    <root id="root">
+      <element id="archive" name="ShoppingWeb.jar">
+        <element id="module-output" name="ShoppingWeb" />
+      </element>
+      <element id="library" level="project" name="Maven: com.isi-mtl:authentication:1.0-SNAPSHOT" />
+      <element id="library" level="project" name="Maven: org.mariadb.jdbc:mariadb-java-client:2.7.1" />
+      <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.6.2" />
+      <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+    </root>
+  </artifact>
+</component>
